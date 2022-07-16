@@ -1,2 +1,7 @@
-package config;public interface Database {
+package config;
+
+import java.sql.Connection;
+
+public interface Database {
+    Connection getDBConnection();
 }
